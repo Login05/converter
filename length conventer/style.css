@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    padding:50px;
+   border-top-style: dashed;
+   border-right-style: dashed;
+   border-left-style: dashed;
+   border-bottom-style: dashed;
+    /* background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'); */
+    /* background-color: rgb(245, 89, 167); */
+    /* background-repeat: no-repeat;   */
+    /* width: 0px; */
+   /* height: 100%; */
+    text-transform:uppercase ;
+    /* text-shadow: 2px 2px; */
+    /* background-size: auto; */
+}
+body{ 
+    background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');   
+   /* background-repeat: repeat-; */
+   /* height: 100%; */
+   /* width: 100%; */
+   /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+}
+button:hover{
+    background-color: rgb(245, 89, 167);
+}
+#box{
+    background-color:rgb(239, 237, 233);
+    padding: 30px;
+    margin: 40px;
+}
+h2{
+    text-transform: uppercase;
+}
+P{
+    
+    background-color: rgb(238, 232, 232);
+    border-top-style:hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>cm to inches</h1>
+    <input type="number" id="userinput" placeholder="length in cm">
+    <br>
+    <br>
+    <button type="submit" onclick="myfun()">convert to inches</button>
+    <p id="y">ans</p>
+    <script>
+        function myfun(){
+            let a=document.getElementById('userinput').value;
+            let b=a/2.54 +"inches";
+            document.getElementById('y').innerHTML=b;
+            
+        }
+    </script>
+    
+</body>
+</html>
